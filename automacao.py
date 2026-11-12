@@ -1,7 +1,7 @@
 import os, shutil
 
 pasta = os.path.expanduser("~/Downloads")
-gavetas = {".jpg": "Imagens", ".jpeg": "Imagens", ".png": "Imagens", ".pdf": "PDFs", ".exe": "Executáveis", ".zip": "Compactados", ".docx": "Documentos", ".webp": "Imagens", ".csv": "Documentos", ".xlsx": "Documentos"}
+gavetas = {".jpg": "Imagens", ".jpeg": "Imagens", ".png": "Imagens", ".pdf": "PDFs", ".exe": "Executáveis", ".zip": "Compactados", ".docx": "Documentos", ".webp": "Imagens", ".csv": "Planilhas", ".xlsx": "Planilhas"}
 
 def organizar_downloads():
     for nome in os.listdir(pasta):
