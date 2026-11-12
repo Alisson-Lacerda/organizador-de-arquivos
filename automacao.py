@@ -10,3 +10,4 @@ def organizar_downloads():
             destino = os.path.join(pasta, gavetas[ext])
             os.makedirs(destino, exist_ok=True)
             shutil.move(os.path.join(pasta, nome), destino)
+organizar_downloads()
